@@ -123,10 +123,10 @@ int fmc_imageon_enable( camera_config_t *config )
 
 
    // FMC-IMAGEON VITA Receiver Initialization
-//   xil_printf( "FMC-IMAGEON VITA Receiver Initialization ...\n\r" );
-//   fmc_imageon_vita_receiver_init( &(config->vita_receiver), "VITA-2000", config->uBaseAddr_VITA_Receiver );
-//   config->vita_receiver.uManualTap = 25;
-//   fmc_imageon_vita_receiver_spi_config( &(config->vita_receiver), (50000000/10000000) );
+   xil_printf( "FMC-IMAGEON VITA Receiver Initialization ...\n\r" );
+   fmc_imageon_vita_receiver_init( &(config->vita_receiver), "VITA-2000", config->uBaseAddr_VITA_Receiver );
+   config->vita_receiver.uManualTap = 25;
+   fmc_imageon_vita_receiver_spi_config( &(config->vita_receiver), (50000000/10000000) );
 
 
    xil_printf("Video Detector Configuration ...\n\r");
@@ -135,13 +135,13 @@ int fmc_imageon_enable( camera_config_t *config )
 
 
    // Initialize the Video Sources
-   fmc_imageon_enable_tpg(config);
-   //int vita_enabled;
-   //int vita_enable_attempt=1;
-   //do {
-	//   xil_printf("\r\n\n\nFMC_IMAGEON_ENABLE_VITA, attempt %d\r\n\n\n", vita_enable_attempt++);
-	//   vita_enabled = fmc_imageon_enable_vita(config);
-   //} while(vita_enabled != 0);
+   //fmc_imageon_enable_tpg(config);
+   int vita_enabled;
+   int vita_enable_attempt=1;
+   do {
+	  xil_printf("\r\n\n\nFMC_IMAGEON_ENABLE_VITA, attempt %d\r\n\n\n", vita_enable_attempt++);
+	  vita_enabled = fmc_imageon_enable_vita(config);
+   } while(vita_enabled != 0);
    //fmc_imageon_enable_ipipe(config);
 
 
@@ -242,39 +242,39 @@ int fmc_imageon_enable_vita( camera_config_t *config ) {
    int ret;
 
    // VITA-2000 Initialization
-//   xil_printf( "FMC-IMAGEON VITA Initialization ...\n\r" );
-//   ret = fmc_imageon_vita_receiver_sensor_initialize( &(config->vita_receiver), SENSOR_INIT_ENABLE, config->bVerbose );
-//   if (ret == 0) {
-//      xil_printf("VITA sensor failed to initialize ...\n\r");
-//      return -1;
-//   }
+   xil_printf( "FMC-IMAGEON VITA Initialization ...\n\r" );
+   ret = fmc_imageon_vita_receiver_sensor_initialize( &(config->vita_receiver), SENSOR_INIT_ENABLE, config->bVerbose );
+   if (ret == 0) {
+      xil_printf("VITA sensor failed to initialize ...\n\r");
+      return -1;
+   }
 
-//   sleep(64); // Version of sleep() we are using is off by 64X.
+   sleep(64); // Version of sleep() we are using is off by 64X.
 
-//   xil_printf("FMC-IMAGEON VITA Configuration for 1080P60 timing ...\n\r");
-//   ret = fmc_imageon_vita_receiver_sensor_1080P60(&(config->vita_receiver), config->bVerbose);
-//   if (ret == 0 ) {
-//      xil_printf( "VITA sensor failed to configure for 1080P60 timing ...\n\r" );
-//      return -1;
-//   }
+   xil_printf("FMC-IMAGEON VITA Configuration for 1080P60 timing ...\n\r");
+   ret = fmc_imageon_vita_receiver_sensor_1080P60(&(config->vita_receiver), config->bVerbose);
+   if (ret == 0 ) {
+      xil_printf( "VITA sensor failed to configure for 1080P60 timing ...\n\r" );
+      return -1;
+   }
 
-   //   sleep(64); // Version of sleep() we are using is off by 64X.
-//   fmc_imageon_vita_receiver_get_status(&(config->vita_receiver), &(config->vita_status_t1), 0/*config->bVerbose*/);
-   //   sleep(64); // Version of sleep() we are using is off by 64X.
-//   fmc_imageon_vita_receiver_get_status(&(config->vita_receiver), &(config->vita_status_t2), 0/*config->bVerbose*/);
+   sleep(64); // Version of sleep() we are using is off by 64X.
+   fmc_imageon_vita_receiver_get_status(&(config->vita_receiver), &(config->vita_status_t1), 0/*config->bVerbose*/);
+   sleep(64); // Version of sleep() we are using is off by 64X.
+   fmc_imageon_vita_receiver_get_status(&(config->vita_receiver), &(config->vita_status_t2), 0/*config->bVerbose*/);
 
-//   int vita_width, vita_height, vita_rate;
-//   vita_width = config->vita_status_t1.cntImagePixels * 4;
-//   vita_height = config->vita_status_t1.cntImageLines;
-//   vita_rate = config->vita_status_t2.cntFrames - config->vita_status_t1.cntFrames;
-//   xil_printf("VITA Status = \n\r");
-//   xil_printf("\tImage Width  = %d\n\r", vita_width);
-//   xil_printf("\tImage Height = %d\n\r", vita_height);
-//   xil_printf("\tFrame Rate   = %d frames/sec\n\r", vita_rate);
+   int vita_width, vita_height, vita_rate;
+   vita_width = config->vita_status_t1.cntImagePixels * 4;
+   vita_height = config->vita_status_t1.cntImageLines;
+   vita_rate = config->vita_status_t2.cntFrames - config->vita_status_t1.cntFrames;
+   xil_printf("VITA Status = \n\r");
+   xil_printf("\tImage Width  = %d\n\r", vita_width);
+   xil_printf("\tImage Height = %d\n\r", vita_height);
+   xil_printf("\tFrame Rate   = %d frames/sec\n\r", vita_rate);
 
-//   if ((vita_width != 1920) || (vita_height != 1080) || (vita_rate == 0)) {
-//	   return 1;
-//   }
+   if ((vita_width != 1920) || (vita_height != 1080) || (vita_rate == 0)) {
+	   return 1;
+   }
 
    return 0;
 }

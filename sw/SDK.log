@@ -1,0 +1,112 @@
+15:52:36.688 INFO  - Processing command line option -hwspec /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/SDK/SDK_Export/hw/system.xml. 
+15:55:31.359 INFO  - Saving repository preferences. 
+15:55:31.436 INFO  - Reading in cores from local repositories: 
+		 /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/repository/ProcessorIPLib 
+15:55:31.718 INFO  - Updating libgen.options on all BSP projects. 
+15:55:31.733 INFO  - Cleaning BSP projects in the workspace. 
+15:57:08.172 INFO  - FPGA configured successfully with bitstream "/home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/sw/system_hw_platform/system.bit" 
+15:58:05.456 INFO  - Processor reset is completed for ps7_cortexa9_0 
+15:58:05.556 INFO  - PS initialization will be done as it is not done before. 
+15:58:05.560 INFO  - Running PS initialization.... 
+15:58:06.518 INFO  - ps7_init is completed. 
+15:58:06.618 INFO  - ps7_post_config is completed. 
+15:58:06.718 INFO  - PS Initialization is complete. 
+16:07:24.232 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:12:10.478 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:20:41.022 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:20:44.404 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:26:43.699 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:28:16.748 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:33:44.093 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:35:17.476 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:35:22.380 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:36:55.197 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:36:58.403 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:37:46.010 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:37:49.411 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:40:32.973 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:40:37.405 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:40:54.262 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:41:21.178 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+16:41:24.404 INFO  - Processor reset is completed for ps7_cortexa9_0 
+16:43:40.753 INFO  - Processor reset is completed for ps7_cortexa9_0 
+17:33:30.329 INFO  - Project system_hw_platform's source hardware specification located at /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/SDK/SDK_Export/hw/system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated. 
+17:33:49.313 INFO  - Copied contents of /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/SDK/SDK_Export/hw/system.xml into /system_hw_platform/system.xml. 
+17:33:50.449 INFO  - Copied contents of /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/SDK/SDK_Export/hw/system.bit into /system_hw_platform/system.bit. 
+17:33:51.810 INFO  - Copied contents of /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/SDK/SDK_Export/hw/ps7_init.c into /system_hw_platform/ps7_init.c. 
+17:33:51.890 INFO  - Copied contents of /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/SDK/SDK_Export/hw/ps7_init.h into /system_hw_platform/ps7_init.h. 
+17:33:52.430 INFO  - Copied contents of /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/SDK/SDK_Export/hw/ps7_init.html into /system_hw_platform/ps7_init.html. 
+17:33:52.686 INFO  - Copied contents of /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/SDK/SDK_Export/hw/ps7_init.tcl into /system_hw_platform/ps7_init.tcl. 
+17:33:53.753 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+17:33:54.809 INFO  - Updating MSS for Board Support Package Project: system_bsp.
+		 The following new driver assignments were made:
+			Peripheral Instance: fmc_imageon_vita_receiver_0, driver: fmc_imageon_vita_receiver_v1_13_a.
+ 
+17:33:55.607 INFO  - Updating hardware inferred compiler options for camera_app. 
+17:33:55.615 INFO  - Clearing existing target manager status. 
+17:33:55.619 INFO  - Closing and re-opening the MSS file of ther project system_bsp 
+17:33:55.990 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+17:35:14.396 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+19:01:34.965 INFO  - Processing command line option -hwspec /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/SDK/SDK_Export/hw/system.xml. 
+19:01:37.079 INFO  - The hardware specification for project 'system_hw_platform' is different from /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/SDK/SDK_Export/hw/system.xml. 
+19:01:37.268 INFO  - Copied contents of /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/SDK/SDK_Export/hw/system.xml into /system_hw_platform/system.xml. 
+19:01:38.035 INFO  - Copied contents of /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/SDK/SDK_Export/hw/system.bit into /system_hw_platform/system.bit. 
+19:01:39.141 INFO  - Copied contents of /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/SDK/SDK_Export/hw/ps7_init.c into /system_hw_platform/ps7_init.c. 
+19:01:39.435 INFO  - Copied contents of /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/SDK/SDK_Export/hw/ps7_init.h into /system_hw_platform/ps7_init.h. 
+19:01:39.695 INFO  - Copied contents of /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/SDK/SDK_Export/hw/ps7_init.html into /system_hw_platform/ps7_init.html. 
+19:01:40.071 INFO  - Copied contents of /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/SDK/SDK_Export/hw/ps7_init.tcl into /system_hw_platform/ps7_init.tcl. 
+19:01:40.720 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+19:01:44.476 INFO  - Restoring local repository preferences: 
+		 /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/repository/ProcessorIPLib 
+19:01:45.594 INFO  - Updating hardware inferred compiler options for camera_app. 
+19:01:45.701 INFO  - Clearing existing target manager status. 
+19:01:49.976 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+19:03:09.742 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:03:48.752 INFO  - FPGA configured successfully with bitstream "/home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/sw/system_hw_platform/system.bit" 
+19:03:55.638 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:07:24.693 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:07:24.693 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:10:44.993 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:12:18.874 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:17:59.142 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:22:20.703 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:22:20.703 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:24:00.217 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Target selection failed.
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(Unknown Source)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(Unknown Source)
+
+19:24:13.336 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+19:24:55.986 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:28:35.708 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:32:45.877 INFO  - FPGA configured successfully with bitstream "/home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/sw/system_hw_platform/system.bit" 
+19:33:02.297 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:35:36.026 INFO  - FPGA configured successfully with bitstream "/home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/sw/system_hw_platform/system.bit" 
+19:35:43.269 INFO  - Processor reset is completed for ps7_cortexa9_0 
+19:35:43.369 INFO  - PS initialization will be done as it is not done before. 
+19:35:43.372 INFO  - Running PS initialization.... 
+19:35:44.492 INFO  - ps7_init is completed. 
+19:35:44.592 INFO  - ps7_post_config is completed. 
+19:35:44.692 INFO  - PS Initialization is complete. 
+19:59:02.692 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+20:20:05.875 INFO  - Processing command line option -hwspec /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/SDK/SDK_Export/hw/system.xml. 
+20:20:07.968 INFO  - The hardware specification for project 'system_hw_platform' is different from /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/SDK/SDK_Export/hw/system.xml. 
+20:20:08.373 INFO  - Copied contents of /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/SDK/SDK_Export/hw/system.xml into /system_hw_platform/system.xml. 
+20:20:11.747 INFO  - Copied contents of /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/SDK/SDK_Export/hw/system.bit into /system_hw_platform/system.bit. 
+20:20:12.258 INFO  - Copied contents of /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/SDK/SDK_Export/hw/ps7_init.c into /system_hw_platform/ps7_init.c. 
+20:20:12.509 INFO  - Copied contents of /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/SDK/SDK_Export/hw/ps7_init.h into /system_hw_platform/ps7_init.h. 
+20:20:13.006 INFO  - Copied contents of /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/SDK/SDK_Export/hw/ps7_init.html into /system_hw_platform/ps7_init.html. 
+20:20:13.286 INFO  - Copied contents of /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/SDK/SDK_Export/hw/ps7_init.tcl into /system_hw_platform/ps7_init.tcl. 
+20:20:14.118 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+20:20:15.246 INFO  - Restoring local repository preferences: 
+		 /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/repository/ProcessorIPLib 
+20:20:16.343 INFO  - Updating hardware inferred compiler options for camera_app. 
+20:20:16.485 INFO  - Clearing existing target manager status. 
+20:21:07.706 INFO  - FPGA configured successfully with bitstream "/home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/sw/system_hw_platform/system.bit" 
+20:21:18.961 INFO  - Processor reset is completed for ps7_cortexa9_0 
+20:21:19.061 INFO  - PS initialization will be done as it is not done before. 
+20:21:19.072 INFO  - Running PS initialization.... 
+20:21:20.286 INFO  - ps7_init is completed. 
+20:21:20.386 INFO  - ps7_post_config is completed. 
+20:21:20.487 INFO  - PS Initialization is complete. 
+20:28:23.585 ERROR - Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

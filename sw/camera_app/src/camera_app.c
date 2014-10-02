@@ -24,11 +24,10 @@ camera_config_t camera_config;
 // Main function. Initializes the devices and configures VDMA
 int main() {
 
-
 	camera_config_init(&camera_config);
 	fmc_imageon_enable(&camera_config);
 	camera_loop(&camera_config);
-
+	//xTPG_main (1920, 1080, XPAR_AXI_TPG_0_BASEADDR);
 	return 0;
 }
 
@@ -38,7 +37,7 @@ void camera_config_init(camera_config_t *config) {
 
     config->uBaseAddr_IIC_FmcIpmi = XPAR_IIC_FMC_BASEADDR;
     config->uBaseAddr_IIC_FmcImageon = XPAR_FMC_IMAGEON_IIC_0_BASEADDR;
-//    config->uBaseAddr_VITA_Receiver = XPAR_FMC_IMAGEON_VITA_RECEIVER_0_BASEADDR;
+    config->uBaseAddr_VITA_Receiver = XPAR_FMC_IMAGEON_VITA_RECEIVER_0_BASEADDR;
 //    config->uBaseAddr_CFA = XPAR_CFA_0_BASEADDR;
 //    config->uBaseAddr_CRES = XPAR_CRESAMPLE_0_BASEADDR;
 //    config->uBaseAddr_RGBYCC = XPAR_RGB2YCRCB_0_BASEADDR;
