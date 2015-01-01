@@ -37,11 +37,11 @@ module system_v_vid_in_axi4s_0_wrapper
   input vid_hblank;
   input vid_vsync;
   input vid_hsync;
-  input [15:0] vid_data;
+  input [7:0] vid_data;
   input aclk;
   input aclken;
   input aresetn;
-  output [15:0] m_axis_video_tdata;
+  output [7:0] m_axis_video_tdata;
   output m_axis_video_tvalid;
   input m_axis_video_tready;
   output m_axis_video_tuser;
@@ -57,10 +57,10 @@ module system_v_vid_in_axi4s_0_wrapper
 
   v_vid_in_axi4s
     #(
-      .C_M_AXIS_VIDEO_DATA_WIDTH ( 16 ),
+      .C_M_AXIS_VIDEO_DATA_WIDTH ( 8 ),
       .C_M_AXIS_VIDEO_FORMAT ( 12 ),
-      .VID_IN_DATA_WIDTH ( 16 ),
-      .C_M_AXIS_VIDEO_TDATA_WIDTH ( 16 ),
+      .VID_IN_DATA_WIDTH ( 8 ),
+      .C_M_AXIS_VIDEO_TDATA_WIDTH ( 8 ),
       .PADDING_BITS ( 0 ),
       .RAM_ADDR_BITS ( 10 ),
       .HYSTERESIS_LEVEL ( 12 )

@@ -28,9 +28,9 @@
 #include "fmc_ipmi.h"
 #include "fmc_imageon.h"
 #include "fmc_imageon_vita_receiver.h"
-//#include "cfa.h"
-//#include "rgb2ycrcb.h"
-//#include "cresample.h"
+#include "cfa.h"
+#include "rgb2ycrcb.h"
+#include "cresample.h"
 #include "xvtc.h"
 #include "xaxivdma.h"
 #include "xtpg_app.h"
@@ -39,6 +39,18 @@
 // Constants for library code
 #define ZED_FMC_IMAGEON_GETTING_STARTED_HW
 #define ADV7511_ADDR   0x72
+
+#define BTNC 0x10
+#define BTND 0x08
+#define BTNL 0x01
+#define BTNU 0x04
+#define BTNR 0x02
+
+#define SW0 0x01
+#define SW1 0x02
+#define SW2 0x04
+#define SW3 0x08
+#define SW4 0x10
 
 
 // This structure contains the configuration context for the
@@ -127,6 +139,7 @@ struct struct_vres_timing_t {
 // Function prototypes (camera_app.c)
 void camera_config_init(camera_config_t *config);
 void camera_loop(camera_config_t *config);
+void camera_interface(camera_config_t *config);
 
 // Function prototypes (fmc_imageon_utils.c)
 int fmc_imageon_enable(camera_config_t *config);
@@ -168,6 +181,6 @@ int vfb_dump_registers( XAxiVdma *pAxiVdma);
 int vfb_check_errors( XAxiVdma *pAxiVdma, u8 bClearErrors );
 
 
-
+void gs_to_color(Xuint32* color, Xuint16* gray);
 
 #endif // __CAMERA_APP_H__

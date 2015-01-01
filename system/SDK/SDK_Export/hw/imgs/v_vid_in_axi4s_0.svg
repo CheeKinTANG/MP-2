@@ -99,9 +99,9 @@
   <use xmlns:xlink="http://www.w3.org/1999/xlink" x="48" y="22" xlink:href="#IPD_PortClk"/>
   <text x="60" y="30" fill="#000000" stroke="none" font-size="8pt" font-style="normal" font-weight="bold" text-anchor="middle" font-family="Verdana Arial Helvetica san-serif">0</text>
   <use xmlns:xlink="http://www.w3.org/1999/xlink" x="40" y="48" xlink:href="#IPD_SPort"/>
+  <use xmlns:xlink="http://www.w3.org/1999/xlink" x="48" y="46" xlink:href="#IPD_PortClk"/>
   <text x="60" y="54" fill="#000000" stroke="none" font-size="8pt" font-style="normal" font-weight="bold" text-anchor="middle" font-family="Verdana Arial Helvetica san-serif">1</text>
   <use xmlns:xlink="http://www.w3.org/1999/xlink" x="40" y="72" xlink:href="#IPD_SPort"/>
-  <use xmlns:xlink="http://www.w3.org/1999/xlink" x="48" y="70" xlink:href="#IPD_PortClk"/>
   <text x="60" y="78" fill="#000000" stroke="none" font-size="8pt" font-style="normal" font-weight="bold" text-anchor="middle" font-family="Verdana Arial Helvetica san-serif">2</text>
   <use xmlns:xlink="http://www.w3.org/1999/xlink" x="40" y="96" xlink:href="#IPD_SPort"/>
   <text x="60" y="102" fill="#000000" stroke="none" font-size="8pt" font-style="normal" font-weight="bold" text-anchor="middle" font-family="Verdana Arial Helvetica san-serif">3</text>
@@ -115,8 +115,8 @@
   <text x="60" y="198" fill="#000000" stroke="none" font-size="8pt" font-style="normal" font-weight="bold" text-anchor="middle" font-family="Verdana Arial Helvetica san-serif">7</text>
   <use xmlns:xlink="http://www.w3.org/1999/xlink" x="40" y="216" xlink:href="#IPD_SPort"/>
   <text x="60" y="222" fill="#000000" stroke="none" font-size="8pt" font-style="normal" font-weight="bold" text-anchor="middle" font-family="Verdana Arial Helvetica san-serif">8</text>
-  <use xmlns:xlink="http://www.w3.org/1999/xlink" x="228" y="248" xlink:href="#AXIS_busconn_INITIATOR"/>
-  <text x="130" y="262" fill="#000000" stroke="none" font-size="8pt" font-style="normal" font-weight="bold" font-family="Verdana Arial Helvetica san-serif">M_AXIS_VIDEO</text>
-  <use xmlns:xlink="http://www.w3.org/1999/xlink" x="228" y="280" xlink:href="#USER_busconn_INITIATOR"/>
-  <text x="138" y="294" fill="#000000" stroke="none" font-size="8pt" font-style="normal" font-weight="bold" font-family="Verdana Arial Helvetica san-serif">VTIMING_OUT</text>
+  <use xmlns:xlink="http://www.w3.org/1999/xlink" x="228" y="248" xlink:href="#USER_busconn_INITIATOR"/>
+  <text x="138" y="262" fill="#000000" stroke="none" font-size="8pt" font-style="normal" font-weight="bold" font-family="Verdana Arial Helvetica san-serif">VTIMING_OUT</text>
+  <use xmlns:xlink="http://www.w3.org/1999/xlink" x="228" y="280" xlink:href="#AXIS_busconn_INITIATOR"/>
+  <text x="130" y="294" fill="#000000" stroke="none" font-size="8pt" font-style="normal" font-weight="bold" font-family="Verdana Arial Helvetica san-serif">M_AXIS_VIDEO</text>
 </svg>

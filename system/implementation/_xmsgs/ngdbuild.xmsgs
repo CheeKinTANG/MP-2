@@ -56,11 +56,32 @@ The license for this core was generated for skovarik@iastate.edu on 10/14/2013It
 </arg>
 </msg>
 
-<msg type="info" file="coreutil" num="0" delta="new" ><arg fmt="%s" index="1">Full license for component &lt;v_tc&gt; allows you to use this component. This license does not give you access to source code implementing this component.
+<msg type="info" file="coreutil" num="0" delta="new" ><arg fmt="%s" index="1">Hardware Evaluation license for component &lt;v_cresample&gt; found. The generated design will cease to function in the programmed device after operating for some period of time. This allows you to evaluate the component in hardware. You are encouraged to license this component.
 
-The license for this core was generated for skovarik@iastate.edu on 10/14/2013It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
+The license for this core was generated for skovarik on 09/25/2014It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
 
-</arg>
+For ordering information, please refer to the product page for this component on: www.xilinx.com</arg>
+</msg>
+
+<msg type="info" file="coreutil" num="0" delta="new" ><arg fmt="%s" index="1">Hardware Evaluation license for component &lt;v_cresample&gt; found. The generated design will cease to function in the programmed device after operating for some period of time. This allows you to evaluate the component in hardware. You are encouraged to license this component.
+
+The license for this core was generated for skovarik on 09/25/2014It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
+
+For ordering information, please refer to the product page for this component on: www.xilinx.com</arg>
+</msg>
+
+<msg type="info" file="coreutil" num="0" delta="new" ><arg fmt="%s" index="1">Hardware Evaluation license for component &lt;v_cfa&gt; found. The generated design will cease to function in the programmed device after operating for some period of time. This allows you to evaluate the component in hardware. You are encouraged to license this component.
+
+The license for this core was generated for skovarik on 09/25/2014It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
+
+For ordering information, please refer to the product page for this component on: www.xilinx.com</arg>
+</msg>
+
+<msg type="info" file="coreutil" num="0" delta="new" ><arg fmt="%s" index="1">Hardware Evaluation license for component &lt;v_cfa&gt; found. The generated design will cease to function in the programmed device after operating for some period of time. This allows you to evaluate the component in hardware. You are encouraged to license this component.
+
+The license for this core was generated for skovarik on 09/25/2014It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
+
+For ordering information, please refer to the product page for this component on: www.xilinx.com</arg>
 </msg>
 
 <msg type="info" file="coreutil" num="0" delta="new" ><arg fmt="%s" index="1">Full license for component &lt;v_tc&gt; allows you to use this component. This license does not give you access to source code implementing this component.
@@ -82,6 +103,41 @@ The license for this core was generated for skovarik@iastate.edu on 10/14/2013It
 The license for this core was generated for skovarik@iastate.edu on 10/14/2013It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
 
 </arg>
+</msg>
+
+<msg type="info" file="coreutil" num="0" delta="new" ><arg fmt="%s" index="1">Full license for component &lt;v_tc&gt; allows you to use this component. This license does not give you access to source code implementing this component.
+
+The license for this core was generated for skovarik@iastate.edu on 10/14/2013It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
+
+</arg>
+</msg>
+
+<msg type="info" file="coreutil" num="0" delta="new" ><arg fmt="%s" index="1">Hardware Evaluation license for component &lt;v_cresample&gt; found. The generated design will cease to function in the programmed device after operating for some period of time. This allows you to evaluate the component in hardware. You are encouraged to license this component.
+
+The license for this core was generated for skovarik on 09/25/2014It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
+
+For ordering information, please refer to the product page for this component on: www.xilinx.com</arg>
+</msg>
+
+<msg type="info" file="coreutil" num="0" delta="new" ><arg fmt="%s" index="1">Hardware Evaluation license for component &lt;v_cresample&gt; found. The generated design will cease to function in the programmed device after operating for some period of time. This allows you to evaluate the component in hardware. You are encouraged to license this component.
+
+The license for this core was generated for skovarik on 09/25/2014It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
+
+For ordering information, please refer to the product page for this component on: www.xilinx.com</arg>
+</msg>
+
+<msg type="info" file="coreutil" num="0" delta="new" ><arg fmt="%s" index="1">Hardware Evaluation license for component &lt;v_cfa&gt; found. The generated design will cease to function in the programmed device after operating for some period of time. This allows you to evaluate the component in hardware. You are encouraged to license this component.
+
+The license for this core was generated for skovarik on 09/25/2014It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
+
+For ordering information, please refer to the product page for this component on: www.xilinx.com</arg>
+</msg>
+
+<msg type="info" file="coreutil" num="0" delta="new" ><arg fmt="%s" index="1">Hardware Evaluation license for component &lt;v_cfa&gt; found. The generated design will cease to function in the programmed device after operating for some period of time. This allows you to evaluate the component in hardware. You are encouraged to license this component.
+
+The license for this core was generated for skovarik on 09/25/2014It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
+
+For ordering information, please refer to the product page for this component on: www.xilinx.com</arg>
 </msg>
 
 <msg type="warning" file="NgdBuild" num="6" delta="old" >Ignoring pad-related <arg fmt="%s" index="1">DIFF_TERM</arg> property on non-pad net &quot;<arg fmt="%s" index="2">fmc_imageon_vita_receiver_0_io_vita_data_p_pin_7_IBUF</arg>&quot;.

@@ -4,8 +4,8 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 Parameter TMPDIR set to /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/synthesis/xst_temp_dir/
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> 
 
@@ -4903,13 +4903,13 @@ io_vita_clk_out_p|    1.629|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 87.00 secs
-Total CPU time to Xst completion: 78.98 secs
+Total REAL time to Xst completion: 297.00 secs
+Total CPU time to Xst completion: 191.39 secs
  
 --> 
 
 
-Total memory usage is 736384 kilobytes
+Total memory usage is 736260 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  873 (   0 filtered)

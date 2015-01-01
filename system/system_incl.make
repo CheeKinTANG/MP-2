@@ -159,6 +159,9 @@ CORE_STATE_DEVELOPMENT_FILES = /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2
 WRAPPER_NGC_FILES = implementation/system_v_vid_in_axi4s_0_wrapper.ngc \
 implementation/system_v_tc_1_wrapper.ngc \
 implementation/system_v_tc_0_wrapper.ngc \
+implementation/system_v_rgb2ycrcb_0_wrapper.ngc \
+implementation/system_v_cresample_0_wrapper.ngc \
+implementation/system_v_cfa_0_wrapper.ngc \
 implementation/system_v_axi4s_vid_out_0_wrapper.ngc \
 implementation/system_processing_system7_0_wrapper.ngc \
 implementation/system_fmc_imageon_vita_receiver_0_wrapper.ngc \

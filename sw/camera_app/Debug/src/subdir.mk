@@ -6,6 +6,7 @@
 C_SRCS += \
 ../src/camera_app.c \
 ../src/fmc_imageon_utils.c \
+../src/gs_to_color.c \
 ../src/video_detector.c \
 ../src/video_frame_buffer.c \
 ../src/video_generator.c \
@@ -18,6 +19,7 @@ LD_SRCS += \
 OBJS += \
 ./src/camera_app.o \
 ./src/fmc_imageon_utils.o \
+./src/gs_to_color.o \
 ./src/video_detector.o \
 ./src/video_frame_buffer.o \
 ./src/video_generator.o \
@@ -27,6 +29,7 @@ OBJS += \
 C_DEPS += \
 ./src/camera_app.d \
 ./src/fmc_imageon_utils.d \
+./src/gs_to_color.d \
 ./src/video_detector.d \
 ./src/video_frame_buffer.d \
 ./src/video_generator.d \

@@ -38,6 +38,15 @@ Loading design module
 v_tc_0_wrapper.ngc"...
 Loading design module
 "/home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/implementation/system_
+v_rgb2ycrcb_0_wrapper.ngc"...
+Loading design module
+"/home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/implementation/system_
+v_cresample_0_wrapper.ngc"...
+Loading design module
+"/home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/implementation/system_
+v_cfa_0_wrapper.ngc"...
+Loading design module
+"/home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/implementation/system_
 v_axi4s_vid_out_0_wrapper.ngc"...
 Loading design module
 "/home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/system/implementation/system_
@@ -150,6 +159,50 @@ INFO:coreutil - Full license for component <v_tc> allows you to use this
    core.
 
 
+INFO:coreutil - Hardware Evaluation license for component <v_cresample> found.
+   The generated design will cease to function in the programmed device after
+   operating for some period of time. This allows you to evaluate the component
+   in hardware. You are encouraged to license this component.
+
+   The license for this core was generated for skovarik on 09/25/2014It is the
+   responsibility of the Licensee of this core to adhere to all terms and
+   conditions of the applicable license agreement when using this core.
+
+   For ordering information, please refer to the product page for this component
+   on: www.xilinx.com
+INFO:coreutil - Hardware Evaluation license for component <v_cresample> found.
+   The generated design will cease to function in the programmed device after
+   operating for some period of time. This allows you to evaluate the component
+   in hardware. You are encouraged to license this component.
+
+   The license for this core was generated for skovarik on 09/25/2014It is the
+   responsibility of the Licensee of this core to adhere to all terms and
+   conditions of the applicable license agreement when using this core.
+
+   For ordering information, please refer to the product page for this component
+   on: www.xilinx.com
+INFO:coreutil - Hardware Evaluation license for component <v_cfa> found. The
+   generated design will cease to function in the programmed device after
+   operating for some period of time. This allows you to evaluate the component
+   in hardware. You are encouraged to license this component.
+
+   The license for this core was generated for skovarik on 09/25/2014It is the
+   responsibility of the Licensee of this core to adhere to all terms and
+   conditions of the applicable license agreement when using this core.
+
+   For ordering information, please refer to the product page for this component
+   on: www.xilinx.com
+INFO:coreutil - Hardware Evaluation license for component <v_cfa> found. The
+   generated design will cease to function in the programmed device after
+   operating for some period of time. This allows you to evaluate the component
+   in hardware. You are encouraged to license this component.
+
+   The license for this core was generated for skovarik on 09/25/2014It is the
+   responsibility of the Licensee of this core to adhere to all terms and
+   conditions of the applicable license agreement when using this core.
+
+   For ordering information, please refer to the product page for this component
+   on: www.xilinx.com
 INFO:coreutil - Full license for component <v_tc> allows you to use this
    component. This license does not give you access to source code implementing
    this component.
@@ -190,6 +243,50 @@ INFO:coreutil - Full license for component <v_tc> allows you to use this
    core.
 
 
+INFO:coreutil - Hardware Evaluation license for component <v_cresample> found.
+   The generated design will cease to function in the programmed device after
+   operating for some period of time. This allows you to evaluate the component
+   in hardware. You are encouraged to license this component.
+
+   The license for this core was generated for skovarik on 09/25/2014It is the
+   responsibility of the Licensee of this core to adhere to all terms and
+   conditions of the applicable license agreement when using this core.
+
+   For ordering information, please refer to the product page for this component
+   on: www.xilinx.com
+INFO:coreutil - Hardware Evaluation license for component <v_cresample> found.
+   The generated design will cease to function in the programmed device after
+   operating for some period of time. This allows you to evaluate the component
+   in hardware. You are encouraged to license this component.
+
+   The license for this core was generated for skovarik on 09/25/2014It is the
+   responsibility of the Licensee of this core to adhere to all terms and
+   conditions of the applicable license agreement when using this core.
+
+   For ordering information, please refer to the product page for this component
+   on: www.xilinx.com
+INFO:coreutil - Hardware Evaluation license for component <v_cfa> found. The
+   generated design will cease to function in the programmed device after
+   operating for some period of time. This allows you to evaluate the component
+   in hardware. You are encouraged to license this component.
+
+   The license for this core was generated for skovarik on 09/25/2014It is the
+   responsibility of the Licensee of this core to adhere to all terms and
+   conditions of the applicable license agreement when using this core.
+
+   For ordering information, please refer to the product page for this component
+   on: www.xilinx.com
+INFO:coreutil - Hardware Evaluation license for component <v_cfa> found. The
+   generated design will cease to function in the programmed device after
+   operating for some period of time. This allows you to evaluate the component
+   in hardware. You are encouraged to license this component.
+
+   The license for this core was generated for skovarik on 09/25/2014It is the
+   responsibility of the Licensee of this core to adhere to all terms and
+   conditions of the applicable license agreement when using this core.
+
+   For ordering information, please refer to the product page for this component
+   on: www.xilinx.com
 WARNING:NgdBuild:6 - Ignoring pad-related DIFF_TERM property on non-pad net
    "fmc_imageon_vita_receiver_0_io_vita_data_p_pin_7_IBUF".
 WARNING:NgdBuild:6 - Ignoring pad-related DIFF_TERM property on non-pad net
@@ -1351,10 +1448,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings: 287
 
-Total memory usage is 847852 kilobytes
+Total memory usage is 1008828 kilobytes
 
 Writing NGD file "system.ngd" ...
-Total REAL time to NGDBUILD completion: 2 min  11 sec
-Total CPU time to NGDBUILD completion:  2 min  5 sec
+Total REAL time to NGDBUILD completion: 8 min  48 sec
+Total CPU time to NGDBUILD completion:  6 min  4 sec
 
 Writing NGDBUILD log file "system.bld"...

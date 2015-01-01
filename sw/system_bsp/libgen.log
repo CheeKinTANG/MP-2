@@ -3,8 +3,8 @@ Release 14.6 - libgen Xilinx EDK 14.6 Build EDK_P.68d
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 Command Line: libgen -hw ../system_hw_platform/system.xml -lp
-/home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/repository/ProcessorIPLib -pe
-ps7_cortexa9_0 -log libgen.log system.mss 
+/tmp/cpre488_vens/MP-3/repository/ProcessorIPLib -lp
+/tmp/cpre488_vens/MP-3/repository -pe ps7_cortexa9_0 -log libgen.log system.mss 
 
 WARNING:EDK:411 - iic -
    /home/vens/classes/Fall2014/cpre488/labs/mp2/MP-2/sw/system_bsp/system.mss

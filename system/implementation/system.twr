@@ -56,7 +56,7 @@ For more information, see From:To (Multicycle) Analysis in the Timing Closure Us
 
  258 paths analyzed, 258 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors)
- Maximum delay is   3.969ns.
+ Maximum delay is   4.038ns.
 --------------------------------------------------------------------------------
 
 ================================================================================
@@ -81,9 +81,9 @@ Timing constraint: TS_clk_fpga_3 = PERIOD TIMEGRP "clk_fpga_3" 142.857 MHz HIGH
 50%;
 For more information, see Period Analysis in the Timing Closure User Guide (UG612).
 
- 18845 paths analyzed, 6137 endpoints analyzed, 0 failing endpoints
+ 18845 paths analyzed, 6125 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
- Minimum period is   6.966ns.
+ Minimum period is   6.919ns.
 --------------------------------------------------------------------------------
 
 ================================================================================
@@ -117,9 +117,9 @@ For more information, see Period Analysis in the Timing Closure User Guide (UG61
 Timing constraint: TS_CLK_IN = PERIOD TIMEGRP "CLK_50MHz" 20 ns HIGH 50%;
 For more information, see Period Analysis in the Timing Closure User Guide (UG612).
 
- 339659 paths analyzed, 15398 endpoints analyzed, 0 failing endpoints
+ 350751 paths analyzed, 16414 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
- Minimum period is  14.736ns.
+ Minimum period is  18.182ns.
 --------------------------------------------------------------------------------
 
 ================================================================================
@@ -128,9 +128,9 @@ PERIOD TIMEGRP         "clock_generator_1_clock_generator_1_SIG_MMCM1_CLKOUT1"
 TS_vclk_clk *         0.25 HIGH 50%;
 For more information, see Period Analysis in the Timing Closure User Guide (UG612).
 
- 66050 paths analyzed, 12899 endpoints analyzed, 0 failing endpoints
+ 66050 paths analyzed, 12904 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
- Minimum period is  14.676ns.
+ Minimum period is  19.868ns.
 --------------------------------------------------------------------------------
 
 ================================================================================
@@ -139,9 +139,9 @@ PERIOD TIMEGRP         "clock_generator_1_clock_generator_1_SIG_MMCM1_CLKOUT0"
 TS_vclk_clk         HIGH 50%;
 For more information, see Period Analysis in the Timing Closure User Guide (UG612).
 
- 241202 paths analyzed, 38793 endpoints analyzed, 0 failing endpoints
+ 381072 paths analyzed, 73493 endpoints analyzed, 0 failing endpoints
  0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
- Minimum period is   6.683ns.
+ Minimum period is   6.712ns.
 --------------------------------------------------------------------------------
 
 
@@ -152,10 +152,10 @@ Derived Constraints for TS_vclk_clk
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TS_vclk_clk                    |      6.734ns|      4.000ns|      6.683ns|            0|            0|            0|       307252|
-| TS_clock_generator_1_clock_gen|     26.936ns|     14.676ns|          N/A|            0|            0|        66050|            0|
+|TS_vclk_clk                    |      6.734ns|      4.000ns|      6.712ns|            0|            0|            0|       447122|
+| TS_clock_generator_1_clock_gen|     26.936ns|     19.868ns|          N/A|            0|            0|        66050|            0|
 | erator_1_SIG_MMCM1_CLKOUT1    |             |             |             |             |             |             |             |
-| TS_clock_generator_1_clock_gen|      6.734ns|      6.683ns|          N/A|            0|            0|       241202|            0|
+| TS_clock_generator_1_clock_gen|      6.734ns|      6.712ns|          N/A|            0|            0|       381072|            0|
 | erator_1_SIG_MMCM1_CLKOUT0    |             |             |             |             |             |             |             |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
@@ -171,7 +171,7 @@ Clock to Setup on destination clock fmc_imageon_video_clk1
                       | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock          |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ----------------------+---------+---------+---------+---------+
-fmc_imageon_video_clk1|   10.292|         |         |         |
+fmc_imageon_video_clk1|    9.461|         |         |         |
 ----------------------+---------+---------+---------+---------+
 
 
@@ -180,21 +180,21 @@ Timing summary:
 
 Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
 
-Constraints cover 668216 paths, 0 nets, and 85627 connections
+Constraints cover 819178 paths, 0 nets, and 119351 connections
 
 Design statistics:
-   Minimum period:  14.736ns   (Maximum frequency:  67.861MHz)
-   Maximum path delay from/to any node:   3.969ns
+   Minimum period:  19.868ns   (Maximum frequency:  50.332MHz)
+   Maximum path delay from/to any node:   4.038ns
 
 
-Analysis completed Wed Oct  1 20:18:03 2014 
+Analysis completed Wed Oct  8 17:13:46 2014 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 1135 MB
+Peak Memory Usage: 1298 MB
 
 
 

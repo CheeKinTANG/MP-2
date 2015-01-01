@@ -1,2 +1,2 @@
    text	   data	    bss	    dec	    hex	filename
-  83616	   3024	  33216	 119856	  1d430	camera_app.elf
+ 125044	   4192	340115968	340245204	1447bad4	camera_app.elf
